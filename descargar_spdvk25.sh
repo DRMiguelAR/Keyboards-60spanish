@@ -1,9 +1,9 @@
 #!/bin/bash
-# Descarga la carpeta spdvk25 del repositorio a ~/Downloads/spdvk25
+# Descarga la carpeta spdvk25 del repositorio a C:\descargas (ruta WSL: /mnt/c/descargas)
 
 REPO_URL="https://github.com/DRMiguelAR/Keyboards-60spanish"
 CARPETA="spdvk25"
-DESTINO="$HOME/Downloads/$CARPETA"
+DESTINO="/mnt/c/descargas/$CARPETA"
 
 echo "Descargando $CARPETA en $DESTINO ..."
 
